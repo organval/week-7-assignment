@@ -1,0 +1,63 @@
+
+<!DOCTYPE html> <!--HTML base structure elements to create a website-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <h1>Contact</h1> <!--First header name at the top of the page-->
+
+    <div> <!--Hyperlinks to navigate between all pages, attribute points to address a user wants to go to, files use a relative path associated with the current directory -->
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a> 
+    </div>
+
+    <br> <!--Line break to make space between Navigation links and Page/Link links-->
+
+    <table> <!--has the links to visit the blog or create a plant group-->
+      <tr> <!--Table row-->
+        <th>Page</th> <!--Table headers for Page and Link-->
+        <th>Link</th> 
+      </tr>
+      <tr>
+        <td>Plant Fans</td> <!--Table data--> 
+        <td><a href="#">Visit Our Blog </a></td> <!--Table data and anchor URL placeholder-->
+      </tr>
+      <tr>
+        <td>Plant Experts</td> <!--Table data-->
+        <td><a href="#">Create A Group</a></td> <!--Table data and anchor URL placeholder-->
+      </tr>
+    </table>
+
+    <form> <!--has fields for a user to enter their contact info-->
+      <h2>Get In Touch</h2> <!--Second header--> 
+
+      <!--Image size adjusted using attributes, SRC (source) attribute is the path to the embeded image, the ALT (alternative) attribute gives text details about the image,  
+       it also provides info about the image when it doesn't render (load) and offers a person with a visual disability guidance, uses absolute path from root directory-->
+      <img
+      margin="100"
+      height="400px"
+      src="https://www.planteriagroup.com/wp-content/uploads/2022/04/getintouch.webp"
+      alt="Get In Touch"/>
+
+      <br> <!--Line breaks to make space between image and form-->
+      <br>
+      <input type="text" name="firstName" placeholder="First Name"> <!--Text for the form-->
+      <input type="text" name="lastName" placeholder="Last Name">
+      <br>
+      <br>
+      <input type="text" name="phone" placeholder="Phone Number">
+      <br>  
+      <br>
+      <input type="text" name="email" placeholder="Email Address">
+      <br>
+      <br>
+      <input type="submit" value="Submit">  
+    </form>
+</body>
+</html>
